@@ -1,0 +1,52 @@
+.contact {
+  width: 100vw;
+  height: 100%;
+  padding: 4rem 5rem;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #32425030, #6d80a21f);
+  display: none;
+  backdrop-filter: blur(10px);
+  .content {
+    border-radius: 13px;
+    width: 100%;
+    height: 100%;
+    background: url("../Image/contact-pic.jpg") rgb(243, 251, 255);
+    background-size: $contactBackWidth;
+    background-repeat: no-repeat;
+    // padding-top: 3rem;
+  }
+  .fa-times {
+    font-size: 1.2rem;
+    float: right;
+    margin: 0.7rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .form {
+    margin-left: $contactBackWidth;
+    padding: 3rem;
+    height: 100%;
+    @include flex(center, flex-start);
+    flex-flow: column;
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    a {
+      padding-left: 20px;
+    }
+    p {
+      margin-top: 0.9rem;
+    }
+    img {
+      object-fit: cover;
+      width: 9rem;
+      height: 3rem;
+      border-radius: 50px;
+      margin-top: 1.2rem;
+    }
+  }
+}
