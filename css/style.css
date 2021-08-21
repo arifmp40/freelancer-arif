@@ -241,7 +241,7 @@ nav {
   width: 100%;
   background: #222125;
   padding: 10px 2rem;
-  z-index: 999;
+  z-index: 998;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
@@ -297,7 +297,7 @@ nav .fas {
   height: 100%;
   padding: 4rem 5rem;
   position: fixed;
-  z-index: 100;
+  z-index: 999;
   top: 0;
   left: 0;
   background: -webkit-gradient(linear, left top, right top, from(#32425030), to(#6d80a21f));
@@ -612,7 +612,7 @@ body {
 
 .notice {
   position: fixed;
-  z-index: 999;
+  z-index: 1000;
   color: #fff;
   font-weight: 200;
   display: none;
@@ -642,6 +642,7 @@ body {
   -webkit-transition: 100ms;
   transition: 100ms;
   color: #fff;
+  z-index: 50;
 }
 
 .up .fa-arrow-up:hover {
@@ -659,7 +660,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  z-index: 50;
+  z-index: 49;
   top: 0;
   left: 0;
   width: 100vw;

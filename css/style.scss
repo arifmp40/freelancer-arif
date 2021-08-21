@@ -47,7 +47,7 @@ body {
 
 .notice {
   position: fixed;
-  z-index: 999;
+  z-index: 1000;
   color: #fff;
   font-weight: 200;
   display: none;
@@ -73,6 +73,7 @@ body {
     background: #ff0000;
     transition: 100ms;
     color: #fff;
+    z-index: 50;
     &:hover {
       opacity: 0.8;
     }
@@ -84,7 +85,7 @@ body {
 .preview {
   @include flex(center);
   position: fixed;
-  z-index: 50;
+  z-index: 49;
   top: 0;
   left: 0;
   width: 100vw;
