@@ -199,6 +199,7 @@
 
 .mainBody .leftSide p {
   color: #b1b1b1;
+  margin: 1rem 0;
 }
 
 .mainBody .leftSide .headBtnBlock {
@@ -631,6 +632,7 @@ body {
   bottom: 20px;
   right: 40px;
   cursor: pointer;
+  z-index: 50;
 }
 
 .up .fa-arrow-up {
@@ -642,7 +644,6 @@ body {
   -webkit-transition: 100ms;
   transition: 100ms;
   color: #fff;
-  z-index: 50;
 }
 
 .up .fa-arrow-up:hover {
@@ -780,8 +781,14 @@ body {
   .preview img {
     width: 86%;
   }
+  .header {
+    padding: 1rem;
+  }
   .header .leftSide {
     width: 90%;
+  }
+  .header .leftSide h1 {
+    font-size: 2.5rem;
   }
   .header .righSide {
     display: none;

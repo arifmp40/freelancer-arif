@@ -65,6 +65,7 @@ body {
   bottom: 20px;
   right: 40px;
   cursor: pointer;
+  z-index: 50;
   .fa-arrow-up {
     display: none;
     border-radius: 5px;
@@ -73,7 +74,6 @@ body {
     background: #ff0000;
     transition: 100ms;
     color: #fff;
-    z-index: 50;
     &:hover {
       opacity: 0.8;
     }
