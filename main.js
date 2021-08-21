@@ -69,8 +69,9 @@ $(document).ready(function () {
   $(document).scroll(function () {
     $(".contact").fadeOut(200);
   });
+  noticeBtn(".contactLink", "still upgrading");
 
-  function contactBtn(cssval, message) {
+  function noticeBtn(cssval, message) {
     $(cssval).click(function (e) {
       e.preventDefault();
       $(".notice").text(message);
@@ -80,9 +81,10 @@ $(document).ready(function () {
       }, 2500);
     });
   }
-  contactBtn(".git", "my github account isn't so good. please wait some time");
+  noticeBtn(".git", "my github account isn't so good. please wait some time");
 
-  contactBtn(".insta", "i don't click photo's. sorry");
+  noticeBtn(".insta", "i don't click photo's. sorry");
+
   //  circle
   function circle(css, value) {
     $(css).circleProgress({

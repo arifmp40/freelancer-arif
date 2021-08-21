@@ -98,7 +98,7 @@
   }
 }
 
-@media (max-width: 498px) {
+@media (max-width: 425px) {
   .preview {
     img {
       width: 86%;
@@ -142,6 +142,20 @@
         width: 185px;
         height: 105px;
       }
+    }
+  }
+
+  .contact {
+    padding: 3rem;
+    .content {
+      background: #1b1b1b;
+    }
+    .form {
+      margin: 0;
+      padding: 1rem;
+    }
+    .fiverr {
+      margin: auto;
     }
   }
 }
