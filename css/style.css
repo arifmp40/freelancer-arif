@@ -16,11 +16,10 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   background: #1a0030;
   z-index: 1000;
   color: #fff;
-  -webkit-transition: 250ms;
-  transition: 250ms;
 }
 
 .sideBar {
@@ -757,7 +756,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    top: -100%;
+    top: -120%;
     left: 0%;
     width: 100vw;
     height: 100%;
