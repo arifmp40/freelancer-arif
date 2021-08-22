@@ -50,7 +50,7 @@
     <!-- lottie -->
     <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
   </head>
-  <body>
+  <body onload="loaded()">
     <div class="notice"></div>
     <div class="up"><i class="fas fa-arrow-up"></i></div>
 
@@ -273,6 +273,13 @@
 
     <!-- custom -->
     <script src="main.js"></script>
+    <script>
+      function loaded() {
+        setTimeout(() => {
+          $(".loading").slideUp(200);
+        }, 500);
+      }
+    </script>
     <script src="lf30_editor_p2oduafj.json"></script>
   </body>
 </html>

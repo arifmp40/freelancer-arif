@@ -1,9 +1,6 @@
 $(document).ready(function () {
-  setTimeout(() => {
-    // $(".loading").css("top", "-150%");
-    $(".loading").slideUp(200);
-  }, 2000);
   $(".preview").hide();
+
   var clickText = 0;
   $(".sideBar h1").click(function (e) {
     e.preventDefault();
