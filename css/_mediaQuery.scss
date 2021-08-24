@@ -171,3 +171,14 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 320px) {
+  #works {
+    .gallary {
+      padding: 0 5px;
+      span {
+        width: 145px;
+      }
+    }
+  }
+}

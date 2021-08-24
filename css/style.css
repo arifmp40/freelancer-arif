@@ -892,7 +892,7 @@ body {
     display: none;
   }
   #about .aboutRight h3:not(span) {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #skills .skillGrp {
     padding: 2rem 1rem;
@@ -942,6 +942,15 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  #works .gallary {
+    padding: 0 5px;
+  }
+  #works .gallary span {
+    width: 145px;
   }
 }
 /*# sourceMappingURL=style.css.map */
