@@ -582,6 +582,11 @@ nav .fas {
   padding: 2rem 10rem;
 }
 
+#skills .nodeJS {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 #works {
   margin-top: 3rem;
 }

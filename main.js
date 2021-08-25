@@ -97,10 +97,10 @@ $(document).ready(function () {
 
   circle(".html", 0.85);
   circle(".css", 0.7);
-  circle(".js", 0.6);
-  circle(".scss", 0.9);
-  circle(".jquery", 0.8);
-  circle(".node", 0.7);
+  circle(".js", 0.65);
+  circle(".scss", 0.7);
+  circle(".jquery", 0.75);
+  circle(".node", 0.6);
   circle(".react", 0.65);
   $("#works img").click(function (e) {
     e.preventDefault();
