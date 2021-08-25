@@ -99,6 +99,9 @@
 }
 
 @media (max-width: 425px) {
+  * {
+    font-size: 85%;
+  }
   .preview {
     img {
       width: 86%;
@@ -117,9 +120,23 @@
     }
   }
   #about {
+    br {
+      display: none;
+    }
+    .content {
+      flex-flow: column;
+    }
+    .aboutLeft {
+      text-align: center;
+      img {
+        width: 50%;
+      }
+    }
     .aboutRight {
+      text-align: center;
+
       h3:not(span) {
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
     }
   }

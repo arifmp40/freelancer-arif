@@ -94,6 +94,7 @@ $(document).ready(function () {
       emptyFill: "#2f2d2dad",
     });
   }
+
   circle(".html", 0.85);
   circle(".css", 0.7);
   circle(".js", 0.6);
