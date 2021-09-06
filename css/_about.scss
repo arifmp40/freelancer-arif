@@ -24,7 +24,10 @@
     padding: 3.4rem;
     img {
       border-radius: 10px;
-      width: 100%;
+      width: 210px;
+      height: 210px;
+      object-fit: cover;
+      object-position: center center;
     }
   }
   .aboutRight {

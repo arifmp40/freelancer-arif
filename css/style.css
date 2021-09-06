@@ -463,7 +463,12 @@ nav .fas {
 
 #about .aboutLeft img {
   border-radius: 10px;
-  width: 100%;
+  width: 210px;
+  height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 #about .aboutRight {
@@ -912,7 +917,8 @@ body {
     text-align: center;
   }
   #about .aboutLeft img {
-    width: 50%;
+    width: 200px;
+    height: 200px;
   }
   #about .aboutRight {
     text-align: center;
