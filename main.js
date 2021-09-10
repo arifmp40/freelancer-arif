@@ -1,5 +1,13 @@
 $(document).ready(function () {
   $(".preview").hide();
+  $(".work").hide();
+  $(".work span a").attr("target", "_blank");
+  $(".swap button").click(function (e) {
+    e.preventDefault();
+    let elem = $(this).attr("data-show-hide");
+    $(".working-sec").hide();
+    $(`.${elem}`).show();
+  });
 
   var clickText = 0;
   $(".sideBar h1").click(function (e) {
@@ -102,10 +110,9 @@ $(document).ready(function () {
   circle(".jquery", 0.75);
   circle(".node", 0.6);
   circle(".react", 0.65);
-  $("#works img").click(function (e) {
+  $("#works .gallary img").click(function (e) {
     e.preventDefault();
     var attr = $(this).attr("src");
-    console.log(attr);
     $(".preview img").attr("src", attr);
     $(".preview").fadeIn(70);
   });
