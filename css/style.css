@@ -868,6 +868,18 @@ body {
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ffffff21;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  width: 8px;
+  background: #ffffff44;
+}
+
 @media (max-width: 1024px) {
   .header .leftSide h1 {
     font-size: 3rem;
