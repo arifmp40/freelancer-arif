@@ -794,39 +794,78 @@ body {
 }
 
 .preview {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: fixed;
   z-index: 49;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-flow: column-reverse;
-          flex-flow: column-reverse;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
   background: rgba(0, 0, 0, 0.5);
 }
 
+.preview .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  width: 860px;
+  height: 530px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #6e6e6e;
+  padding: 10px;
+}
+
 .preview img {
-  width: 70%;
+  width: 830px;
+  height: auto;
 }
 
 .preview i {
-  color: #fff;
-  position: fixed;
-  right: 4rem;
-  top: 4rem;
-  font-size: 2rem;
+  color: black;
+  font-size: 1.4rem;
   cursor: pointer;
+  padding: 6px;
+  width: 100%;
+  text-align: right;
+}
+
+.preview hr {
+  width: 100%;
+}
+
+.scale-up {
+  -webkit-animation: 200ms 1 load;
+          animation: 200ms 1 load;
+}
+
+@-webkit-keyframes load {
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes load {
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -905,8 +944,8 @@ body {
     left: 0%;
     width: 100vw;
     height: 100%;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.4);
   }
   nav .links a {
