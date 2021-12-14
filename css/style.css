@@ -784,6 +784,7 @@ body {
   display: grid;
   place-content: center;
   background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
 }
 
 .preview .container {
