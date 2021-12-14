@@ -952,9 +952,7 @@ body {
 }
 
 @media (max-width: 425px) {
-  * {
-    font-size: 85%;
-  }
+  
   .preview img {
     width: 86%;
   }
