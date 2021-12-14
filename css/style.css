@@ -802,8 +802,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #fff;
-  width: 860px;
-  height: 530px;
+ 
   overflow: hidden;
   position: relative;
   border: 2px solid #6e6e6e;
@@ -811,7 +810,7 @@ body {
 }
 
 .preview img {
-  width: 830px;
+  width: 98vw;
   height: auto;
 }
 
