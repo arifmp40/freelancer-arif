@@ -105,11 +105,11 @@ $(document).ready(function () {
 
   circle(".html", 0.85);
   circle(".css", 0.7);
-  circle(".js", 0.65);
+  circle(".js", 0.75);
   circle(".scss", 0.7);
   circle(".jquery", 0.75);
   circle(".node", 0.6);
-  circle(".react", 0.65);
+  circle(".react", 0.80);
   $("#works .gallary img").click(function (e) {
     e.preventDefault();
     var attr = $(this).attr("src");
